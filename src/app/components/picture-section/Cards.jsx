@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import "./picturecss.css";
@@ -10,7 +11,6 @@ import img4 from "../../images/assets/Image (3) (1).png";
 import cartimg from "../../images/assets/Add Cart (1).png";
 import cartwo from "../../images/assets/Add Cart (2).png";
 
-
 const Pictures = (props) => {
   const productData = [
     {
@@ -19,7 +19,6 @@ const Pictures = (props) => {
       imageUrl: img1,
       cardurl: cartwo,
       cardstyle: "fw-bold text-colorr",
-
     },
     {
       productName: "Library Stool Chair",
@@ -27,7 +26,6 @@ const Pictures = (props) => {
       imageUrl: img2,
       cardurl: cartimg,
       cardstyle: "fw-bold text-size",
-     
     },
     {
       productName: "Library Stool Chair",
@@ -54,38 +52,33 @@ const Pictures = (props) => {
 
       <div className="container">
         <div className="row row-cols-1 row-cols-md-4 ">
-
-      
           {productData.map((item) => {
             return (
               <div class="col ">
-              <div className="" > 
-              <Image
-                className="widht-imgg rounded"
-                src={item.imageUrl}
-                width={249}
-                height={190}
-              />
-             
-              
-              <div className="d-flex">
-                <div className="mx-3 text-size">
-                  <p className={item.cardstyle}> {item.productName}</p>
-                  <p className=" fw-bold pb-5">{item.productPrize}</p>
-                 
+                <div className="">
+                  <Image
+                    className="widht-imgg rounded"
+                    src={item.imageUrl}
+                    width={249}
+                    height={190}
+                  />
+
+                  <div className="d-flex">
+                    <div className="mx-3 text-size">
+                      <p className={item.cardstyle}> {item.productName}</p>
+                      <p className=" fw-bold pb-5">{item.productPrize}</p>
+                    </div>
+                    <Image
+                      className="text-center mx-3 p-3"
+                      src={item.cardurl}
+                      width={70}
+                      height={69}
+                    />
+                  </div>
                 </div>
-                <Image
-                  className="text-center mx-3 p-3"
-                  src={item.cardurl}
-                  width={70}
-                  height={69}
-                />
-                 </div> 
-                 </div>
               </div>
             );
           })}
-
         </div>
       </div>
     </div>

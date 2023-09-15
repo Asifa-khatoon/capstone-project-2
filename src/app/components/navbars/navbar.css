@@ -1,0 +1,47 @@
+.back-color {
+  background-color: #272343;
+}
+.saction-nav {
+  background-color: #f0f2f3;
+}
+.input-stylee {
+  border: none;
+  width: 300px;
+}
+
+.editt {
+  border-radius: 5px;
+  background: white;
+}
+
+.removed-properties {
+  height: 40px;
+  outline: none !important;
+  border: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .point {
+    position: relative;
+    margin-left: 120px;
+    margin-top: 15px;
+  }
+
+  .editt {
+    width: 350px;
+    margin-top: 10px;
+  }
+}
+.btn-bg {
+  size: 20px;
+  background-color: #007580 !important;
+}
+.other-color {
+  color: #636270 !important;
+}
+.back-btn {
+  background-color: #f0f2f3 !important;
+}
+.Home-text {
+  color: #007580 !important;
+}

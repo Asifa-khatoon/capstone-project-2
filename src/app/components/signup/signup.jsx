@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import "./signup.css";
 import lineimg from "../../images/assets/Line.svg";
-import NavbarOne from "@/app/components/navbars/navbar";
+
 import Footer from "../Footer/footer";
 
 const Signup = () => {
@@ -44,7 +44,7 @@ const Signup = () => {
 
   return (
     <div className="">
-      <NavbarOne />
+    
 
       <div className="container">
         <div className="row justify-content-center  width-setting my-4">

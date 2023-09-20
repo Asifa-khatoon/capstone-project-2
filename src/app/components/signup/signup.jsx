@@ -52,7 +52,7 @@ const Signup = () => {
             <div className="form px-4  py-5 ">
               <form class="row my-2" onSubmit={formSubmitHandler}>
                 <div class="col-12">
-                  <h3 className="text-center p-3 fw-bold"> Sign In </h3>
+                  <h3 className="text-center p-3 fw-bold"> Sign Up </h3>
                   <input
                     type="text"
                     className="form-control my-2 shadow-none p-3 mb-5 bg-light rounded"

@@ -6,7 +6,6 @@ import lineimg from "../../images/assets/Line.svg";
 import NavbarOne from "@/app/components/navbars/navbar";
 import Footer from "../Footer/footer";
 
-
 const Signup = () => {
   const [userEmail, setUserEmail] = useState("");
   const [userEmailMessage, setuserEmailMessage] = useState("Enter your email");
@@ -21,14 +20,14 @@ const Signup = () => {
   const userEmailHandler = (e) => {
     setUserEmail(e.target.value);
     if (userEmail !== "") {
-      setuserEmailMessage("Looks Good!");
+      setuserEmailMessage("Looks nice!");
     }
   };
 
   const userPasswordHandler = (e) => {
     setUserPassword(e.target.value);
     if (userPassword !== "") {
-      setUserPasswordMessage("Looks Good!");
+      setUserPasswordMessage("Looks nice!");
     }
   };
 
@@ -64,7 +63,7 @@ const Signup = () => {
                   {showUserEmailError && (
                     <p
                       className={`${
-                        userEmailMessage === "Looks Good!"
+                        userEmailMessage === "Looks nice!"
                           ? "text-success"
                           : "text-danger"
                       } fw-bold`}
@@ -84,7 +83,7 @@ const Signup = () => {
                   {showUserPasswordError && (
                     <p
                       className={`${
-                        userPasswordMessage === "Looks Good!"
+                        userPasswordMessage === "Looks nice!"
                           ? "text-success"
                           : "text-danger"
                       } fw-bold`}
@@ -105,7 +104,6 @@ const Signup = () => {
                   type="submit"
                   className="rounded btn btn-colorr text-white  my-5 py-2  submit align-items-center justify-content-center"
                 >
-                 
                   Sign Up
                   <Image
                     className="px-2 "
@@ -116,9 +114,8 @@ const Signup = () => {
                 </button>
 
                 <p className="text-center">
-                 
                   Don’t have account?{" "}
-                  <span className="color-sign-up">  Sign Up  </span>
+                  <span className="color-sign-up"> Sign Up </span>
                 </p>
               </form>
             </div>

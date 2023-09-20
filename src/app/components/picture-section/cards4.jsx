@@ -9,11 +9,12 @@ import img3 from "../../images/assets/Image (2) (1).png";
 import img4 from "../../images/assets/Image (3) (1).png";
 
 
-const Pictures = () => {
+const Cardss = () => {
   return (
-    <div className="container">
-      <div className="container  p-2">
-        <h5 className="fw-bold pt-4"> Feature product </h5>
+    <div>
+         <div className="container">
+      <div className="container d-flex justify-content-between p-2">
+        <h5 className="fw-bold pt-4">  Recently added </h5>
         <Image src={arrwoimg} width={80} height={90} alt="" />
       </div>
 
@@ -23,7 +24,7 @@ const Pictures = () => {
             <div className="post position-absolute bg-success succes text-white rounded pt-1 mt-3 mx-4 px-3">
               <span className="">New</span>
             </div>
-           
+          
             <Image src={img1} className="img-fluid mb-2" alt="chair" />
             <div className=" ">
               <h6 className="text-start text-info fw-bold">
@@ -32,7 +33,7 @@ const Pictures = () => {
               
               <h6 className="newclas text-start">$20</h6>
             </div>
-           
+            
           </div>
           <div className="col-md-3">
             <div className="post position-absolute orange text-white rounded pt-1 mt-3 mx-3">
@@ -55,7 +56,7 @@ const Pictures = () => {
               <h6 className="text-start fw-bold">Library Stool Chair</h6>
               <h6 className=" text-start">$20</h6>
             </div>
-          
+            
           </div>
           <div className="col-md-3">
             <Image src={img4} className="img-fluid mb-2" alt="chair" />
@@ -63,12 +64,14 @@ const Pictures = () => {
               <h6 className="text-start fw-bold">Library Stool Chair</h6>
               <h6 className=" text-start">$20</h6>
             </div>
-          
+           
           </div>
         </div>
       </div>
     </div>
-  );
-};
+      
+    </div>
+  )
+}
 
-export default Pictures;
+export default Cardss

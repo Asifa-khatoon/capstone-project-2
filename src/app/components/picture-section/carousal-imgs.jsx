@@ -37,12 +37,12 @@ const ImagesSection = (props) => {
             return (
               <div class="col-md-4 mb-3">
                 <div className="position-set position-absolute">
-                  <h4 className="text-white text-start m-2 p-1">
-                    {" "}
+                  <h4 className=" fw-bold text-start m-2 p-1">
+                  
                     {item.productName}
                   </h4>
-                  <p className="text-white-50 text-start mx-3">
-                    {" "}
+                  <p className=" fw-bold text-start mx-3">
+                  
                     {item.productAvailable}
                   </p>
                 </div>

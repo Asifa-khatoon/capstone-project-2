@@ -9,6 +9,7 @@ import ImagesSection from "@/app/components/picture-section/carousal-imgs";
 import Footer from "@/app/components/Footer/footer";
 import Cards from "@/app/components/two-cards/two-cards-section";
 import Products from "@/app/components/picture-section/products";
+import Cardss from "@/app/components/picture-section/cards4";
 
 const Userpage = () => {
   return (
@@ -19,10 +20,13 @@ const Userpage = () => {
       <CardCenter />
       <Thirdsection />
       <Pictures />
+      
       <ImagesSection />
       <Products />
+     
 
       <Cards />
+      <Cardss/>
       <Footer />
     </div>
   );

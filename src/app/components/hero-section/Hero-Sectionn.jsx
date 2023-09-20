@@ -29,7 +29,7 @@ const HeroSection = () => {
               <h1 class="fw-bold">
                
                 Best Furniture <br />
-                Collection for your interior.{" "}
+                Collection for your interior.
               </h1>
             </div>
             <div className="container px-5 mx-5">
@@ -37,7 +37,7 @@ const HeroSection = () => {
                 type="button"
                 class="btn  rounded mx-5 btn-greenn text-white px-4"
               >
-                {" "}
+                
                 Shop Now
                 <Image className="px-2 " src={lineimg} width={35} height={20} />
               </button>
@@ -53,7 +53,7 @@ const HeroSection = () => {
                 width={330}
                 height={250}
                 alt="dots"
-              />{" "}
+              />
             </div>
             <div className="">
               <Image

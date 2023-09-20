@@ -20,8 +20,8 @@ const CardCenter = () => {
                   <div className="px-2 pt-2">
                     <p className="font-size-5 fw-bold"> Discount</p>
                     <p className="font-size-5 text-secondary ">
-                      {" "}
-                      Every week new sales{" "}
+                    
+                      Every week new sales
                     </p>
                   </div>
                 </div>
@@ -33,8 +33,8 @@ const CardCenter = () => {
                   <div className="px-2 pt-3">
                     <p className="font-size-5 fw-bold"> Free Delivery </p>
                     <p className="font-size-5 text-secondary ">
-                      {" "}
-                      100% Free for all orders{" "}
+                    
+                      100% Free for all orders
                     </p>
                   </div>
                 </div>
@@ -46,8 +46,8 @@ const CardCenter = () => {
                   <div className="px-2 pt-3">
                     <p className="font-size-5 fw-bold"> Great Support 24/7 </p>
                     <p className="font-size-5 text-secondary ">
-                      {" "}
-                      We care your experiences{" "}
+                     
+                      We care your experiences
                     </p>
                   </div>
                 </div>
@@ -59,8 +59,8 @@ const CardCenter = () => {
                   <div className="pt-3 px-2">
                     <p className="font-size-5 fw-bold"> secure Payment </p>
                     <p className="font-size-5 text-secondary ">
-                      {" "}
-                      100% Secure Payment Method{" "}
+                     
+                      100% Secure Payment Method
                     </p>
                   </div>
                 </div>

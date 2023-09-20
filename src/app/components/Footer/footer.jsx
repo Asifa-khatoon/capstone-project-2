@@ -68,8 +68,8 @@ const Footer = () => {
                     <li className="nav-item mb-2"> Armchair</li>
                     <li className="nav-item mb-2"> Wing chair </li>
                     <li className="nav-item mb-2 text-color-5">
-                      {" "}
-                      <u> Desk Chair </u>{" "}
+                    
+                      <u> Desk Chair </u>
                     </li>
                     <li className="nav-item mb-2"> wooden Chair </li>
                     <li className="nav-item mb-2"> Park Bench</li>
@@ -78,7 +78,7 @@ const Footer = () => {
                 <div className=" col-md-2 text-center  d-flex flex-column text-lg-start">
                   <ul className="nav flex-column py-4">
                     <li className="nav-item mb- text-secondary p-3">
-                      {" "}
+                    
                       SUPPORT
                     </li>
                     <li className="nav-item mb-2 "> Help & Support </li>
@@ -112,11 +112,11 @@ const Footer = () => {
               </div>
 
               <div className=" border-top pt-3">
-                <div className="container d-flex justify-content-between text-center ">
+                <div className="container d-flex justify-content-between ">
                   <p className="text-muted mb-0">
                    
-                    @ 2021 - Blogy - Designed & Develop by{" "}
-                    <span className="text-black"> Zakirsoft</span>{" "}
+                    @ 2021 - Blogy - Designed & Develop by
+                    <span className="text-black"> Zakirsoft</span>
                   </p>
                   <div className="d-flex justify-"> 
                   <Image
